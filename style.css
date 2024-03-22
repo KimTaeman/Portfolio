@@ -1,0 +1,43 @@
+:root {
+  --primary-white: #fff;
+  --primary-black: #212529;
+} 
+
+/* General */
+
+body {
+  font-family: "Roboto Serif", serif;
+}
+
+h1 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+}
+
+
+.button {
+  background-color: var( --primary-white);
+  border: 2px solid var(--primary-black);
+}
+
+.nav-tag{
+  background-color: var( --primary-white);
+  color: var(--primary-black);
+  border-bottom: 2px solid var(--primary-black);
+}
+
+.button:hover, .nav-scrolled {
+  background-color: var(--primary-black);
+  color: var(--primary-white);
+}
+
+.button:hover, #projects .card:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+}
+
+#projects .card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
